@@ -1,0 +1,17 @@
+name: pdfviewer
+description: A flutter plugin to display PDF.
+version: 1.0.0
+author: Victor Zurita M. <atiru<@gmail.com>
+homepage: https://github.com/atiruz
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: ">=1.19.0 <2.0.0"
+
+flutter:
+  plugin:
+    androidPackage: com.atiruz.pdfviewer
+    pluginClass: PDFViewerPlugin
