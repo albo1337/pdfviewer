@@ -1,11 +1,39 @@
 # pdfviewer
 
 A new flutter plugin project.
-Fork of original [pdfviewer](https://github.com/atiruz/pdfviewer) this works with Dart 2.
+Fork of original [pdfviewer](https://github.com/atiruz/pdfviewer). This one works with Dart 2.
 
-## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+##Use this package as a library
+###1. Depend on it
 
-For help on editing plugin code, view the [documentation](https://flutter.io/developing-packages/#edit-plugin-package).
+Add this to your package's pubspec.yaml file:
+
+```
+dependencies:
+  pdf_viewer_2: ^1.0.2
+```
+
+###2. Install it
+
+You can install packages from the command line:
+
+with Flutter:
+
+```
+$ flutter packages get
+```
+
+Alternatively, your editor might support ```flutter packages get```. Check the docs for your editor to learn more.
+
+
+###3. Import it
+
+Now in your Dart code, you can use:
+
+```
+import 'package:pdf_viewer_2/pdfviewer.dart';
+import 'package:pdf_viewer_2/pdfviewer_plugin.dart';
+import 'package:pdf_viewer_2/pdfviewer_scaffold.dart';
+```
+
